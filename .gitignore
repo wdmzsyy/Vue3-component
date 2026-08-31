@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.eslintcache
+*.log
+
+# 如果是 macOS
+.DS_Store
+
+# 本地环境配置文件
+.env*.local
