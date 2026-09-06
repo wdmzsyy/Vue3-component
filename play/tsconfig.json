@@ -1,0 +1,8 @@
+// 总入口，根配置，引用其他子配置
+{
+  "files": [],  // 不直接包含任何文件
+  "references": [
+    { "path": "./tsconfig.app.json" },   // 引用应用配置
+    { "path": "./tsconfig.node.json" }   // 引用 Node 配置
+  ]
+}
